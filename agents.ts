@@ -13,6 +13,7 @@ const getWeather = tool(
   },
 );
 
+
 const getTime = tool(
   (input) => {
     return `the time in ${input.city} is 03:00 PM `;
